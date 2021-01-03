@@ -3,7 +3,7 @@ import React from 'react'
 function Nav() {
     return (
         <div className="nav">
-            <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0f" alt="Netflix Logo"/>
+            <img className="logo" src="https://i.imgur.com/x3JQ0FD.png" alt="Netflix Logo"/>
         </div>
     )
 }

@@ -1,0 +1,23 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  height: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 80px;
+  object-fit: contain;
+  left: 20px;
+}
+
+.icon {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}

@@ -2,11 +2,17 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: black;
   height: 30px;
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+.black_nav {
+  background-color: black;
 }
 
 .logo {

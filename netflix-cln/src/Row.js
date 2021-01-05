@@ -21,17 +21,17 @@ function Row({ title, fetchUrl, isLargeRow }) {
 
     const handleClick = (film) => {
         if (trailerUrl) {
-            setTrailerUrl('')
+            setTrailerUrl()
         } else {
             try{
                 movieTrailer(film?.name)
                 .then((url) => {
                     const urlParams = new URLSearchParams(new URL(url).search)
                     setTrailerUrl(urlParams.get('v'))
+                    console.log(trailerUrl)
                 })
-            }
-            catch(err) {
-                return
+            } catch(err) {
+                setTrailerUrl()
             }
         }
     }
